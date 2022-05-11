@@ -1,20 +1,26 @@
 import styled from "styled-components/native";
 
 export const HeaderContainer = styled.View`
-    background: white;
-    flex: 1;
-`;
+    /* background: white;
+    flex: 1; */
 
-export const Navbar = styled.View`
-    background: red;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+
+    background: #D95043;
+
+    justify-content: space-around;
+    align-items: center;
 `;
 
 export const Logo = styled.Image`
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 `;
 
 export const Title = styled.Text`
-    color: blue;
-    font-size: 22px;
+    font-size: 42px;
+    color: #ffffff;
 `;

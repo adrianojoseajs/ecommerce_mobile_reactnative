@@ -1,5 +1,6 @@
 import { useNavigation } from "@react-navigation/native"
 import React from "react"
+import BodyCards from "../../components/BodyCards";
 import {
     BodyContainer,
 } from "./styles"
@@ -12,7 +13,9 @@ const Body = ({
 
     return (
         <>
-            <BodyContainer></BodyContainer>
+            <BodyContainer>
+                <BodyCards></BodyCards>
+            </BodyContainer>
         </>
     )
 }

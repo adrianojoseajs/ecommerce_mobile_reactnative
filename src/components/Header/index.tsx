@@ -1,8 +1,8 @@
 import { useNavigation } from "@react-navigation/native"
 import React from "react"
+import logo_ecommerce from "../../assets/logo_ecommerce.jpg";
 import {
     HeaderContainer, 
-    Navbar,
     Logo,
     Title,
 } from "./styles"
@@ -16,10 +16,9 @@ const Header = ({
     return (
         <>
             <HeaderContainer>
-                <Navbar>
-                    <Logo></Logo>
-                    <Title></Title>
-                </Navbar>
+                <Logo source={logo_ecommerce}
+            />
+                    <Title>Slim</Title>
             </HeaderContainer>
         </>
     )

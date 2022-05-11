@@ -12,9 +12,13 @@ import {
 function Home({ navigation: { navigate } }) {
     
     return (
-        <Container>
-            <Header></Header>
-        </Container>
+        <>
+            <Container>
+                <Header></Header>
+                <Navbar></Navbar>
+                <Body></Body>
+            </Container>
+        </>
     );
 }
 
