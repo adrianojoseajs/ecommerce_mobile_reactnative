@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native"
 import React from "react"
-import BodyCards from "../../components/BodyCards";
+import BodyCards from "../CardsGames";
 import {
     BodyContainer,
 } from "./styles"

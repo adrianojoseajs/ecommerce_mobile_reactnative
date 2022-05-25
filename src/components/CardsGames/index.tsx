@@ -26,13 +26,6 @@ const BodyCards = ({
                         <Description></Description>
                         <Price></Price>
                     </Cards>
-
-                    <Cards>
-                        <Title></Title>
-                        <Img />
-                        <Description></Description>
-                        <Price></Price>
-                    </Cards>
                 {/* </ScrollView> */}
             </BodyCardsContainer>
         </>

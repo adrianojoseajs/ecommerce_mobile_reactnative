@@ -15,8 +15,17 @@ export const NavbarContainer = styled.View`
     align-items: center;
 `;
 
-export const Btn = styled.TouchableOpacity`
-    color: green;
+export const TextSearch = styled.TextInput`
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
 `;
 
 export const BtnsEntrada = styled.View`
@@ -41,6 +50,7 @@ export const BtnLogin = styled.TouchableOpacity`
     align-items: center;
 `;
 export const BtnCadastro = styled.TouchableOpacity`
+    background: #D95043;
     width: 100px;
     height: 50px;
     padding: 10px;

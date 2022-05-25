@@ -1,8 +1,9 @@
 import { useNavigation } from "@react-navigation/native"
 import React from "react"
+import { TextInput } from "react-native"
 import {
     NavbarContainer,
-    Btn,
+    TextSearch,
     BtnsEntrada,
     BtnLogin,
     BtnCadastro,
@@ -18,7 +19,7 @@ const Navbar = ({
     return (
         <>
             <NavbarContainer>
-                        <Btn><Text>Buscar</Text></Btn>
+                        <TextSearch>Buscar...</TextSearch>
                         <BtnsEntrada>
                         <BtnLogin><Text>Login</Text></BtnLogin>
                         <BtnCadastro><Text>Cadastro</Text></BtnCadastro>
